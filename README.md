@@ -37,11 +37,14 @@ cd nodejs-api-starter
 
 ### 2. Configure Environment Variables
 
-Copy the example file and update the values as needed:
 
-```bash
-cp .env.example .env
-```
+Create a .env file in root folder of the project with these code 
+"
+PORT=5000
+DATABASE_URL=postgresql://username@password?sslmode=require&channel_binding=require
+"
+update the values as needed
+
 
 ### 3. Install Dependencies
 
