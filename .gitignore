@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+logfile.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+
+# Sequelize
+src/models/index.js
+src/config/config.json
+
+# Docker
+*.pid
+docker-data/
+.env.docker
+
+# Test output
+coverage/
+tests/__snapshots__/
+
+# Misc
+*.swp
+*.swo
